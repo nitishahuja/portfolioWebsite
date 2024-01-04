@@ -58,7 +58,11 @@ const ExperienceCard = ({ experience }) => {
 
 const Experience = () => {
   return (
-    <section id="work">
+    <section>
+      <div
+        id="work"
+        style={{ position: "relative", top: "-100px", visibility: "hidden" }}
+      ></div>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
           What I have done so far

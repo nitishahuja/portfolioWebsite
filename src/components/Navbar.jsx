@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
@@ -46,7 +45,7 @@ const Navbar = () => {
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             Nitish &nbsp;
             <span className="sm:block hidden">
-              | Software Development &nbsp;
+              | &nbsp;Software Development &nbsp;
             </span>
             {/* <span className="sm:block hidden">| Product Management&nbsp; </span> */}
           </p>
