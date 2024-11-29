@@ -51,13 +51,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Hello! As a full-stack developer, I'm well-versed in TypeScript,
-        JavaScript, and adept in frameworks like React, Node.js, Three.js, and
-        Next.js. My approach blends technical skill with a playful creativity,
-        ensuring each project is not just functional but also engaging. I excel
-        in turning complex ideas into intuitive, user-friendly solutions, and I
-        relish the chance to collaborate and bring innovative concepts to life.
-        Let’s connect and transform vision into a vibrant digital reality!
+        Hello! I’m a full-stack developer with expertise in TypeScript,
+        JavaScript, and frameworks like React, Node.js, Next.js, and Three.js.
+        My experience spans creating scalable, high-performance applications and
+        intuitive user interfaces, blending technical precision with innovative
+        design. I specialize in transforming complex ideas into user-friendly
+        solutions, backed by hands-on experience in real-time collaboration
+        tools, data-driven optimizations, and scalable architectures. Passionate
+        about solving challenges and building impactful digital experiences, I’m
+        eager to collaborate and bring bold visions to life. Let’s connect and
+        create something remarkable!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

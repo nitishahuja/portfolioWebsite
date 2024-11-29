@@ -21,7 +21,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import Freelancer from "./company/Freelancer.png";
+import AvenueOne from "./company/AnenueOne_Logo.png";
 import DecisionPointAnalytics from "./company/DecisionPointAnalytics.png";
 import Elev8Solar from "./company/Elev8Solar.png";
 

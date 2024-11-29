@@ -16,6 +16,7 @@ import {
   figma,
   docker,
   DecisionPointAnalytics,
+  AvenueOne,
   Elev8Solar,
   Freelancer,
   carrent,
@@ -45,19 +46,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Frontend Developer",
+    title: "Full Stack Developer",
     icon: creator,
   },
   {
-    title: "Backend Developer",
+    title: "Frontend Developer",
     icon: backend,
   },
   {
-    title: "Web Developer",
+    title: "Backend Developer",
     icon: web,
   },
   {
-    title: "Product Management",
+    title: "Cloud Developer",
     icon: mobile,
   },
 ];
@@ -119,17 +120,31 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Frontend Software Developer",
+    title: "Software Product Engineering Intern ",
+    company_name: "Avenue One",
+    company_url: "https://www.avenueone.com/",
+    icon: AvenueOne,
+    iconBg: "#E4E4E4",
+    date: "May 2024 - December 2024",
+    points: [
+      "Architected a Transaction Management System for asset management, standardizing 100K+ data points across 10K+ properties, enabling data-driven optimization of rental leases, asset performance, and maintenance, projected to boost revenue by 30%",
+      "Engineered a responsive frontend with Next.js and TypeScript, integrating AWS Lambda and Aurora RDS to enhance data flow and scalability, reducing deployment failures by 80% with SST and streamlining releases with CodePipeline",
+      "Conceptualized User Interface triggered store procedures to ensure data consistency across database views accessed by Lambda functions, utilizing Liquibase to reduce data inconsistency by 60% and Docker to standardize database environments",
+      "Structured backend architecture for complex reconciliation workflows, enabling actions like modification, rejection, and resolution of data discrepancies across property managers, reducing server costs and achieving 25% faster response times",
+      "Automated reconciliation processes using Python scripts and AWS SQS to detect recurring data patterns among property managers, cutting manual effort by 85%",
+    ],
+  },
+  {
+    title: "Software Engineer",
     company_name: "Decision Point Analytics",
     company_url: "https://decisionpoint.ai/",
     icon: DecisionPointAnalytics,
     iconBg: "#E4E4E4",
     date: "June 2021 - July 2023",
     points: [
-      `Beagle: Spearheaded the front-end development of Beagle, a Microsoft Teams-integrated conversational BI tool using GPT-4, integrating backend REST APIs for enhanced data interaction. This pivotal revenue-generating scalable enterprise infrastructure contributed to $5M in revenue and secured consecutive ’App of the Year’ awards for two years.`,
-      "Beagle Charts: Engineered a versatile charts library, incorporating D3.js, Highcharts, and Chart.js utilizing plain JSON data to offer over 25 unique chart options. This innovation led to an impressive 80% surge in user engagement through advanced data visualization technique",
-      "Hubble: Spearheaded the redevelopment of Hubble, an RGM capability demonstration tool. Implemented streamlined programming development processes, resulting in a 25% reduction in development time and a 30% reduction in reported bugs on Jira while maintaining technical documentation and testing all use cases, enhancing overall team efficiency. This strategic enhancement led to a more engaging user experience and a substantial 42% increase in lead generation",
-      "CONA: Led frontend development for a resource availability forecasting project with a Fortune 500 company. My leadership and focus on timely, high-quality deliverables fostered an extended partnership.",
+      "Enhanced code quality and maintainability across 3+ applications from prototype to deployment by leading debugging and testing efforts, reducing code defects by 20% and significantly improving long-term maintainability",
+      "Established the TypeScript and React frontend for Beagle, a business insight tool featuring real-time collaboration, integrated with a custom NLP pipeline, OpenAI models, and a Python backend, earning Microsoft's 'App of the Year' award twice",
+      "Spearheaded a team of 3 to design and innovate Beagle Charts, an interactive library for the Beagle with 25+ unique options using D3.js & Three.js, enhancing 3D data visualizations and customization, contributing to a 35% increase in user retention",
     ],
   },
   {
@@ -140,20 +155,9 @@ const experiences = [
     iconBg: "#E4E4E4",
     date: "May 2022 - July 2023",
     points: [
-      "Developed a data-driven product with product design strategies, using modern technologies to boost user interaction and accuracy, resulting in a 40% rise in user engagement",
-      "Generated $50,000 in revenue and led a 10+ member team, demonstrating early financial success and rapid growth",
-    ],
-  },
-  {
-    title: "Web Developer & Designer",
-    company_name: "Shopify",
-    company_url: "#",
-    icon: Freelancer,
-    iconBg: "#E4E4E4",
-    date: "August 2020 - June 2021",
-    points: [
-      "Delivered and launched multiple web applications, such as e-commerce platforms and healthcare websites, leading to a remarkable revenue increase of over $5 million for clients",
-      "Led UI/UX design projects with tools like Figma, resulting in a significant boost in user engagement, a substantial uptick in user satisfaction, and a notable 30% increase in traffic",
+      "Founded a solar energy startup, providing customized solutions through technical strategy, cost analysis, and client education, leading a 12-member team to achieve $50K+ in first-year revenue and complete over 100KW in solar installations",
+      "Automated onboarding and project workflows using Python, Azure Logic Apps, and Azure DevOps Pipelines with Terraform, reducing setup time by 40% and accelerating transitions from consultation to deployment-ready proposals",
+      "Crafted a data-driven cost analysis and ROI prediction tool using Python, Pandas, and Power BI, integrating local energy rates and installation costs to provide customers with transparent, data-backed financial insights on long-term solar benefits",
     ],
   },
 ];
