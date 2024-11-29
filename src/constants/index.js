@@ -18,7 +18,6 @@ import {
   DecisionPointAnalytics,
   AvenueOne,
   Elev8Solar,
-  Freelancer,
   carrent,
   jobit,
   tripguide,

@@ -51,7 +51,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  Freelancer,
+  AvenueOne,
   DecisionPointAnalytics,
   Elev8Solar,
   carrent,
